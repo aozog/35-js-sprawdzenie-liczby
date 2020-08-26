@@ -1,12 +1,14 @@
-function przedzial(n) {
-    if (n>=100 && n<=200) {
-        return "Liczba znajduje się w przedziale";
+function kobe(n, x) {
+    if (n===20) {
+        return "true";
+    } else if ((n + x)<=20) {
+        return "true";
     } else {
-        return "Liczba nie znajduje się w przedziale";
+        return "false";
     };
 };
 
 
 
-console.log(przedzial(n));
+console.log(kobe(n, x));
 
